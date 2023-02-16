@@ -1,0 +1,193 @@
+!<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <title>trackitafrica</title>
+  </head>
+  <body>
+    
+      <nav class="navbar navbar-expand-lg bg-warning navbar-warning text-bold py-3 fixed-top ">
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <img src="	https://trackitafrica.live/img/site-images/logo.png" height="60px" alt="logo"></a>
+           <button class="navbar-toggler" 
+              type="button" 
+              data-bs-toggle="collapse"
+              data-bs-target="#navmenu">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="colapse navbar-collapse" id="navmenu">
+              <ul class="navbar-nav ms-auto me-20 ">
+                <li class="nav-item">
+                  <a href="#How it works" class="nav-link ">How it works</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#Features" class="nav-link">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#About us" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#login" class="nav-link"><button class="btn btn-secondary rounded-pill btn-hover">Login</button></a>
+                </li>
+              </ul>
+            </div>
+        </div>
+        
+      </nav>
+      <section class="bg-light py-4 my-6">
+          <div class="container">
+            <div class="row align-items-centre justify-content-between g-3">
+              <div class="col-md-6">
+                <div class="card" style="width: 40rem;">
+                  <img src="image2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">School Bus Title</h5>
+                    <p class="card-text">School Bus Track system provides an app and a dashboard
+                      for schools to manage school bus fleets, students onboarding the buses and drivers.
+
+                      The app aims at providing peace of mind for a working and busy parent/guardian. 
+                      Some of the issues we seek to address are.</p>
+                  </div>
+                  
+                  <div class="card-body">
+                    <a href="#aboutus" class="card-link"><button class="btn btn-success ">Contact Us</button></a>
+                    <a href="" class="card-link"><button class="btn btn-secondary">
+                      <i class="bi-Play"></i>
+                      <span>Download on the</span><br>
+                      <span>Google playstore</span>
+                    </button></a>
+                  </div>
+                   </div>
+              </div>
+                <div class="col-md-6">
+                  <div class="card" style="width: 40rem;">
+                    <img src="image 3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"><h1 class="bold">How it Works</h1></h5>
+                      <p class="card-text">The process of registration is easy, the school gives us a call/email we visit the school,
+                         we assist in the initial registration of the bus and drivers while training the school personnel. Once a parent is added to the system, they get an email which they use to set up their credentials, then download the app and login. They do not have to add their kids since the school will automatically do that for them. The parents may then decide to add a guardian for the kids(eg, a house help or any other person that they might want to add to the system), When the school starts a trip to pick up or drop-off of the kids, the guardian and the parent will get a notification.
+          
+                        Parents who would be interested to use the service can also make a formal suggestion to the school, while emailing us and we can pick it from there.</p>
+                    </div>
+                </div>
+                </div>
+                  
+                </div>
+          </div>
+      </section>
+
+    <section class="bg-light p-1"> 
+      <div class="container">
+        <h1 class="mb-3 bold text-dark">Features</h1>
+       <div class="row align-items-centre g-4">
+        <div class="col-md-4 col-lg-3">
+          <div class="card">
+            <img src="trackbus.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><h1 class="bold">School Bus Tracking</h1></h5>
+              <p class="card-text">The system offers schools with a dashboard to manage vehicle locations trips and route, disable drivers and add new vehicles and drivers.
+
+                In case of distress, the system offers schools with a way to switch the bus ferring student on a certain route, retaining the visibility to the parents/guardians.</p>
+            </div>
+        </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="card">
+            <img src="realtimenotifications.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><h1 class="bold">Real-Time and Proximity Notification</h1></h5>
+              <p class="card-text">The system sends notification to the school management, drivers and parents based on various event. When the student departs from school parent are notified and when the bus is near the designated student drop /pick up zone parent are notified.</p>
+            </div>
+        </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="card">
+            <img src="checkincheckout.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><h1 class="bold">Clock in/Out Management</h1></h5>
+              <p class="card-text">The system offers student management with details of their events, that is on the time they arrived at the school, alight from the school bus, and much more.</p>
+            </div>
+        </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="card">
+            <img src="trackhistory.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><h1 class="bold">Tracking History</h1></h5>
+              <p class="card-text">The school is able to see the trips made by each bus and the drives assigned and the students that were on board at each trip.
+
+                The parents are able to view a history of all the trips their kids have made to the school for the term.</p>
+            </div>
+        </div>
+        </div>
+       </div> 
+      </div>
+        
+    </section>
+    <section class="bg-info g-2 m-4">
+      <div class="container">
+        <h1 class="bold text-centre">About Us</h1>
+        <p class="">Track System kenya is an SME founded in 2020, That is revolutionising the tracking industry! 
+          It aims at bringing cutting edge solutions to how we track machines in the twenty first century.</p>
+          <p>We are based in Nairobi, making our clients offices a second office to bring services closer. 
+            The company has high professional staff with experience from working abroad and also within the kenya workspace.</p>
+            <div class="d-sm-flex align-items-centre justify-content-between">
+               <div>
+                <h1 class="bold">Call Us</h1>
+                <p>+254723835186 / +254707200314</p>
+                <h1 class="class">Talk to us</h1>
+                <p>trackitafrica.live@gmail.com</p>
+               </div>
+              </div>
+              <div class="g-4">
+                <div class="input-group input-group-lg mb-3">
+                  <span class="input-group-text" id="inputGroup-sizing-lg">Names*</span>
+                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                </div>
+                <div class="input-group input-group-lg mb-3">
+                  <span class="input-group-text" id="inputGroup-sizing-lg">School</span>
+                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                </div>
+                <div class="input-group input-group-lg mb-3">
+                  <span class="input-group-text" id="inputGroup-sizing-lg">Email*</span>
+                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                </div>
+                <div class="input-group input-group-lg mb-3">
+                  <span class="input-group-text" id="inputGroup-sizing-lg">Message*</span>
+                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                
+            </div>
+            <div class="align-items-centre">
+              <button class="btn btn-success btn-hover btn-lg">Send</button>
+            </div>
+              </div>
+             
+      </div>
+    </section>
+
+    <section class="bg-warning p-1 justify-content-between">
+      <div class="container">
+        <div class="align-items-centre">
+          <h1 class="text-bold">
+            Contact Us
+          </h1>
+          <p>Nairobi, Kenya</p>
+          <p>Email: trackitafrica.live.live</p>
+          <p>Phone: +25423835186</p>
+        </div>
+      </div>
+    </section>
+      
+          
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+     crossorigin="anonymous"></script>
+
+   
+  </body>
+</html>
